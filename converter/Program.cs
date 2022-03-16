@@ -20,6 +20,8 @@ namespace converter
 
             Console.WriteLine(USD + " USD в RUB = " + USD * USDToRUB);
             Console.WriteLine(USD + " USD в CNY = " + USD * USDToCNY);
+            Console.WriteLine("Для завершения нажмите Enter ");
+            Console.ReadLine();
         }
     }
 }

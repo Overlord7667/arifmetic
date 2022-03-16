@@ -21,6 +21,8 @@ namespace arifmetic
 
             double result2 = (firstValue + secondValue) / 2;
             Console.WriteLine(" the arifmetic mean of this number =  " + result2);
+            Console.WriteLine("Для завершения нажмите Enter ");
+            Console.ReadLine();
         }
     }
 }
